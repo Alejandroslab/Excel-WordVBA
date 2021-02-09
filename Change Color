@@ -1,0 +1,6 @@
+Sub SelezioneColoreRosso()
+'cambia colore della selezione in rosso
+' SelezioneColoreRosso Macro
+Selection.Font.Color = wdColorRed
+
+End Sub
