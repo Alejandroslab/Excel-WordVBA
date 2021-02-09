@@ -1,0 +1,2 @@
+If you type Option Explicit at the top of your module, 
+you'll get a helpful compile error when you refer to something that doesn't actually exist or is mis-spelled, instead of accidentally declaring a new variable.
