@@ -1,0 +1,7 @@
+Sub CreateShortcut()
+
+ Application.OnKey "+^{A}", "Form"
+ 
+End Sub
+
+Thi will open the Form called Form with the shortcut Ctrl+a
