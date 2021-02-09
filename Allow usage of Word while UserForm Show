@@ -1,0 +1,4 @@
+Select the UserForm. 
+In properties you will find 
+ShowModal
+Turn it to false.
