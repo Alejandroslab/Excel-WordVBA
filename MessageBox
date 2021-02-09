@@ -1,0 +1,16 @@
+VBA automatically corrects 
+You can type 
+msgbox
+Msgbox
+
+and VBA will autocorrect to:
+MsgBox
+
+Test it:
+
+Msgbox "Ciao"
+
+Msgbox primavariabile & secondavariabile
+
+Msgbox "Il tempo è di: " & " " &  tempoinsecondi
+
