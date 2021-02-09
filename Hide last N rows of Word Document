@@ -1,0 +1,61 @@
+A very naif approach:
+
+Sub Hidden_Text()
+
+Dim paragrafi
+
+ 
+ paragrafi = ActiveDocument.Paragraphs.Count
+ 
+' MsgBox "The active document contains " & _
+' paragrafi & " paragraphs."
+
+'ora seleziona l'ultimo paragrafo in quanto paragrafi restituisce il totale dei paragrafi
+'se i paragrafi sono 20 il comando count restituisce 20 (prova a vedere con il msg box)
+'ora quindi selezioniamo il paragrafo 20 ovvero l'ultimo paragrafo:
+ 
+ActiveDocument.Paragraphs(paragrafi).Range.Select
+'ActiveDocument.Shapes(1).Select
+'ora fare attenzione che a volte le linee non sono shape ma semplicemente delle lineette unite
+
+
+'con questa selezione nascondi il testo
+
+    With Selection.Font
+        '.Name = "Garamond"
+        '.Size = 11
+        '.Bold = False
+        '.Italic = False
+        '.Underline = wdUnderlineNone
+        '.UnderlineColor = wdColorAutomatic
+        '.StrikeThrough = False
+        '.DoubleStrikeThrough = False
+        '.Outline = False
+        '.Emboss = False
+        '.Shadow = False
+        .Hidden = True
+        '.SmallCaps = False
+        '.AllCaps = False
+        '.Color = wdColorAutomatic
+        '.Engrave = False
+        '.Superscript = False
+        '.Subscript = False
+        '.Spacing = 0
+        '.Scaling = 100
+        .Position = 0
+        .Kerning = 0
+        .Animation = wdAnimationNone
+        .Ligatures = wdLigaturesNone
+        .NumberSpacing = wdNumberSpacingDefault
+        .NumberForm = wdNumberFormDefault
+        .StylisticSet = wdStylisticSetDefault
+        .ContextualAlternates = 0
+    End With
+    
+    'con questa parte seleziono il penultimo paragrafo
+    
+ActiveDocument.Paragraphs(paragrafi - 1).Range.Select
+    With Selection.Font
+    .Hidden = True
+    End With
+End Sub
