@@ -15,20 +15,3 @@
             End With
 
 
-        With Selection
-            .HomeKey Unit:=wdStory
-            With .Find
-                .ClearFormatting
-                .Replacement.ClearFormatting
-            
-                'Here is where it is actually looking for spaces between words
-                .Text = " [ ]@([! ])"
-                'This line tells it to replace the excessive spaces with one space
-                .Replacement.Text = " \1"
-                .MatchWildcards = True
-                .Wrap = wdFindStop
-                .Format = False
-                .Forward = True
-                'execute the replace
-                .Execute Replace:=wdReplaceAll
-            End With
