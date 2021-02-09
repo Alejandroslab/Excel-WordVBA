@@ -1,0 +1,5 @@
+Sub UserForm1()
+Range("A1").Select
+SendKeys "%w", False
+ActiveSheet.ShowDataForm
+End Sub
