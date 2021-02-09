@@ -1,0 +1,9 @@
+F9 to toggle breakpoint (really useful)
+It allows to run code until the row indicated by F9
+
+After pressing F9 the row turns red.
+The red row will be the last one to be executed.
+
+It will pause the code afterwards.
+If you resume the code it will start from the toggle breakpoint (the red row).
+To avoid this just press stop debug.
