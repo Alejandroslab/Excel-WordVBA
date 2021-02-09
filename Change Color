@@ -1,6 +1,25 @@
+Change selected text to red text
+
 Sub SelezioneColoreRosso()
 'cambia colore della selezione in rosso
 ' SelezioneColoreRosso Macro
 Selection.Font.Color = wdColorRed
 
+End Sub
+
+-----
+Select all the text of the document and turn it black.
+
+
+Sub TestoNero()
+'
+' Macro4 Macro
+'
+'
+    Selection.WholeStory
+ Selection.Font.Color = wdColorBlack
+ 
+ 'si puo anche usare alternativamente:
+    'Selection.Font.TextColor = RGB(0, 0, 0)
+    
 End Sub
