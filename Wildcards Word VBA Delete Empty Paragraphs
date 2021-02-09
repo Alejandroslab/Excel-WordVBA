@@ -1,0 +1,14 @@
+ 
+            With .Find
+                 'This time its looking for excessive spaces after a paragraph mark
+                .Text = "^p "
+                'What to replace it with
+                .Replacement.Text = "^p"
+                .MatchWildcards = False
+                .Wrap = wdFindStop
+                .Format = False
+                .Forward = True
+                'Execute the replace
+                .Execute Replace:=wdReplaceAll
+            End With
+
