@@ -23,3 +23,18 @@ Sub TestoNero()
     'Selection.Font.TextColor = RGB(0, 0, 0)
     
 End Sub
+
+
+---
+Change background color as well as text:
+
+Sub SfondoNeroTestoBianco()
+  ActiveWindow.ActivePane.View.Zoom.Percentage = 178
+ActiveDocument.Background.Fill.ForeColor.ObjectThemeColor = _
+        wdThemeColorText1
+    ActiveDocument.Background.Fill.ForeColor.TintAndShade = 0.15
+    ActiveDocument.Background.Fill.Visible = msoTrue
+    ActiveDocument.Background.Fill.Solid
+    
+End Sub
+
