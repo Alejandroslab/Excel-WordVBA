@@ -1,2 +1,3 @@
 # Excel-WordVBA
-learning VBA in Excel and Word
+Learning VBA in Excel and Word
+Building and testing..
