@@ -1,0 +1,4 @@
+To create a macro for every workbook the file Personal.xlsb should appear in the left column of VBA.
+
+If it does not then try to record a macro to the 'Personal Macro Folder' then the 
+Perrsonal xlsb Project will appear in the left column with the correspondent Module
