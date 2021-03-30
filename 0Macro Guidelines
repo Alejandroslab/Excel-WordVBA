@@ -2,9 +2,16 @@ You cannot name a macro starting with a number, or with spaces in the name (you 
 
 Generally, you cannot undo a Macro. Be careful
 
+when you use a macro to repeat some formatting
+you can use relative references that allow
+to get all the edits on different cells
+(it will not be important the cell's position)
+
+ 
+
 In Selection.Find
 Selecion is the object
-Find is the method  
+Find is the method
 
 Every object can have differente characteristics like for example Colors, Fonts.
 These are called properties
@@ -16,7 +23,7 @@ There are several ways to type code in VBA
 
 In this case the following coulde be inteded the same as: Range(“A1”).Value = “Hello World”
 
-Range(“A1”) 
+Range(“A1”)
 Selection.Value = “Hello World”
 
 

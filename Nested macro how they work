@@ -1,0 +1,6 @@
+inside a macro with nested macro
+this macro can also be defined later
+
+there is not any order problem
+VBA once calls a macro inside another one
+will open it and execute its code.
