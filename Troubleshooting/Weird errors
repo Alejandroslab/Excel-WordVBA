@@ -1,3 +1,20 @@
-VBA user-defined type error
+1)VBA user-defined type error
 
 to fix this close and reopen Word and everything should be ok
+
+2) sub or function not defined
+
+this could happen when you copy portions of code
+from the web
+
+rememebr! you have to clean the code before inserting
+in VBA
+
+this means you have to clean all blank spaces
+
+in fact there are very insidious characters
+that are invisible inside the editor but VBA will see them and will not run
+
+you can see them also when you paste that kind of
+characters inside the search bar of any common browser
+(they are sort of squared characters)
