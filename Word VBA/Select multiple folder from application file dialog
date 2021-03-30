@@ -1,0 +1,10 @@
+it cannot be done in vba
+
+the workaround is to put all your files inside a folder
+
+REMEMBER! subdirectories will not be considered by my macros
+
+you can edit the code to make it work also in the subdirectories!
+
+
+doing that you will be able to run your macro over multiple folders!

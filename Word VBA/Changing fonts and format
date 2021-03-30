@@ -1,0 +1,34 @@
+very basic stuff
+
+you can get her even with macro recorder
+
+With Selection.Font
+        '.Name = "Garamond"
+        '.Size = 11
+        '.Bold = False
+        '.Italic = False
+        '.Underline = wdUnderlineNone
+        '.UnderlineColor = wdColorAutomatic
+        '.StrikeThrough = False
+        '.DoubleStrikeThrough = False
+        '.Outline = False
+        '.Emboss = False
+        '.Shadow = False
+        .Hidden = True
+        '.SmallCaps = False
+        '.AllCaps = False
+        '.Color = wdColorAutomatic
+        '.Engrave = False
+        '.Superscript = False
+        '.Subscript = False
+        '.Spacing = 0
+        '.Scaling = 100
+        .Position = 0
+        .Kerning = 0
+        .Animation = wdAnimationNone
+        .Ligatures = wdLigaturesNone
+        .NumberSpacing = wdNumberSpacingDefault
+        .NumberForm = wdNumberFormDefault
+        .StylisticSet = wdStylisticSetDefault
+        .ContextualAlternates = 0
+    End With
