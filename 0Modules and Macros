@@ -1,2 +1,8 @@
 Renaming Modules: F4
-You can change the name in the property table.
+You can change the name in the property table
+
+it will not modify the behaviour of the macro
+
+macro or sub can be inserted everywhere, in any module
+
+you can also insert more macro on the same module

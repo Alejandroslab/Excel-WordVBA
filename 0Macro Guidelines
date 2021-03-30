@@ -1,13 +1,12 @@
 You cannot name a macro starting with a number, or with spaces in the name (you can use an underscore)
 
-Generally, you cannot undo a Macro. Be careful
+Generally, you cannot undo a Macro. Be careful. Save a copy of your data before proceeding.
 
 when you use a macro to repeat some formatting
 you can use relative references that allow
 to get all the edits on different cells
 (it will not be important the cell's position)
 
- 
 
 In Selection.Find
 Selecion is the object
@@ -25,6 +24,16 @@ In this case the following coulde be inteded the same as: Range(“A1”).Value 
 
 Range(“A1”)
 Selection.Value = “Hello World”
+
+
+SAVING IN NORMAL template
+In VBA you have the possibility to save your macro inside your file
+or inside the 'normal' template.
+in the normal template macro will be available in any word or excel file you will open
+Modules must be created inside that template to be available
+everytime
+(you will see it in the left bar Project-Normal)
+
 
 
 SHORTCUTS
