@@ -1,0 +1,10 @@
+To mirror a table in a sheet you can use 'Paste link' to paste the values of another sheet.
+This will mirror your table in another sheet
+
+You may want to change the cell format as some zero may appear instead of blank cells.
+You can format it with 'FOrmat cells' and choose 'Custom'
+
+0;-0;;@
+with this to remove the zeros
+
+You can also use 'Paste linked image' but this will paste an image that will mirroring your table
