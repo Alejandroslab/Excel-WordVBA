@@ -1,0 +1,3 @@
+Sub Procedures (or sub routines) perform actions but do not return a value to the calling code.
+
+Function Procedures (or function routines) return a value to the calling code. They can perform other actions before returning.
