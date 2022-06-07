@@ -1,0 +1,9 @@
+There is no easy way to do This
+You should first create a table with all the possible different text
+then click on conditional formatting add a custom rule and choose
+
+'Use a formula'
+
+then use the function MATCH() and point to the table with all the possible different text
+
+This is of course not feasible when you have lots of different texts 
