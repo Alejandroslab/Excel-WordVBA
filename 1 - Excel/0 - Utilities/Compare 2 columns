@@ -1,0 +1,14 @@
+quickly create another column setting:
+if the first column is A and the second one is B:
+
+in another column place this formula:
+
+=A1=B1
+
+it will appear TRUE if both values are the same or FALSE if they are not the same.
+
+then fill it for all the size of the columns
+
+done!
+
+if you want to quickly check the FALSE ones, use conditional formatting 
