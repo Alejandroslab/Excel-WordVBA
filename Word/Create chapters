@@ -1,0 +1,9 @@
+If you're writing a multi-chapter document, such as a book, that includes figures, you may want to have your figure captions prefaced with the number of the chapter the figure appears in.
+
+To include chapter numbers in captions, you must use a unique heading style for chapter headings. For example, if you use the Heading 1 style for chapter headings, do not use the Heading 1 style for any other text in the document.
+
+Select the first chapter heading in your document.
+
+On the Home tab, in the Paragraph group, click the arrow next to Multilevel List.
+
+Click a chapter-numbering list definition (one that includes the text Heading 1 or Chapter 1).
