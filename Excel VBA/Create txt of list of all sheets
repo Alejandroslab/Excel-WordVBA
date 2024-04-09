@@ -1,0 +1,26 @@
+'codice per stampare sun file txt l'elenco di tutti i fogli di un cartella di lavoro excel
+'Sostituire il percorso con il percorso deisderato. Non è necessario che il file esiste. Verrà creato exnovo
+
+
+
+Sub ElencoNomiFogliInFileDiTesto()
+    Dim ws As Worksheet
+    Dim filePath As String
+    Dim fileNumber As Integer
+    
+    ' Imposta il percorso del file di testo (modifica come desiderato)
+    filePath = "C:\Users\MYUSER\Downloads\ElencoFogli.txt"
+    
+    ' Apri il file di testo per la scrittura
+    fileNumber = FreeFile
+    Open filePath For Output As #fileNumber
+    
+    ' Scrivi i nomi dei fogli nel file di testo
+    For Each ws In ThisWorkbook.Worksheets
+        Print #fileNumber, ws.Name
+    Next ws
+    
+    ' Chiudi il file di testo
+    Close #fileNumber
+End Sub
+
